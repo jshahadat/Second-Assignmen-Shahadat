@@ -75,6 +75,60 @@ Blog  And Upcomming match
     height: 100%;
 }
 
+/* --------------
+Animation Styles
+ --------------*/
+@keyframes playing {
+    0% {
+        left: 0;
+        transform: scale(.2);
+    }
+
+    25% {
+        top: 150px;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 150px;
+    }
+
+    100% {
+
+        left: 500px;
+    }
+}
+
+.aria {
+    width: 500px;
+    height: 100px;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    animation-name: playing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    position: relative;
+}
+
+.ball:hover {
+    display: none;
+}
+
+.ball img {
+    width: 50px;
+    height: 50px;
+}
+
 .main-container {
     display: flex;
     margin-left: 6%;
