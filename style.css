@@ -84,7 +84,7 @@ Animation Styles
         transform: scale(.2);
     }
 
-    25% {
+    /* 25% {
         top: 150px;
     }
 
@@ -94,11 +94,11 @@ Animation Styles
 
     75% {
         top: 150px;
-    }
+    } */
 
     100% {
 
-        left: 500px;
+        left: 200px;
     }
 }
 
@@ -520,11 +520,25 @@ Mobile view
         text-overflow: ellipsis;
     }
 
+    .aria {
+        display: none;
+    }
+
     .headers-image {
         width: 233px;
         height: 245px;
         padding-top: 33px;
         margin-right: 0;
+
+    }
+
+    .headers-image:hover {
+        width: 233px;
+        height: 245px;
+        padding-top: 33px;
+        margin-right: 0;
+
+
     }
 
     .headers-image img {
