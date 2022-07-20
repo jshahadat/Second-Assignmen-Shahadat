@@ -12,7 +12,7 @@ Blog  And Upcomming match
 
 /* Header Styles */
 .heads-top {
-    /* height: 646px; */
+
     background-color: #161616;
     border-radius: 30px;
     margin-top: 30px;
@@ -29,7 +29,7 @@ Blog  And Upcomming match
 
 .headers-box {
     margin-left: 5%;
-    /* margin-bottom: 111px; */
+
 }
 
 .headers-title {
@@ -57,8 +57,6 @@ Blog  And Upcomming match
     text-align: center;
     color: #FFFFFF;
     padding: 16px 25px;
-    /* width: 187px;
-    height: 56px; */
     background: #DD0000;
     border-radius: 5px;
 }
@@ -69,7 +67,7 @@ Blog  And Upcomming match
     height: 613px;
     justify-content: center;
     padding-top: 33px;
-    /* margin-right: 80px; */
+    margin-right: 30px;
 }
 
 .headers-image img {
@@ -159,6 +157,11 @@ Blog Wevsite Styles
     border-radius: 10px;
 }
 
+.link-for-match:hover {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
 .link-for-match a {
     text-decoration: none;
     text-align: center;
@@ -174,7 +177,7 @@ Blog Wevsite Styles
     align-items: center;
     width: 252px;
     height: 64px;
-    background: #DD0000;
+    background-color: #DD0000;
     border-radius: 10px;
 }
 
@@ -264,7 +267,7 @@ hr {
 }
 
 .footers-link-1 {
-    margin: 25px 90px 122px 90px;
+    margin: 25px 90px 20px 90px;
     display: flex;
     justify-content: center;
 }
@@ -290,9 +293,22 @@ hr {
     color: #B9B9B9;
 }
 
-.media-icons {
+.media-icons-box {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.media-icons {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram-square {
+    font-size: 2.5em;
 }
 
 /*----------
@@ -300,7 +316,6 @@ hr {
  ----------*/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .heads-top {
-        /* height: 646px; */
         background-color: #161616;
         border-radius: 30px;
         margin-top: 30px;
@@ -349,7 +364,6 @@ hr {
         align-items: center;
         width: 100%;
         height: 100%;
-        /* margin-top: 70px; */
         margin-bottom: 30px;
         background-color: white;
         border-radius: 10px;
@@ -403,7 +417,13 @@ hr {
     .footers-link-1 {
         display: flex;
         flex-direction: column;
-        margin: 25px 80px 122px 80px;
+        margin: 25px 80px 30px 80px;
+    }
+
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-instagram-square {
+        font-size: 2em;
     }
 }
 
@@ -571,6 +591,12 @@ Mobile view
         flex-direction: column;
         text-align: center;
         justify-content: center;
+    }
+
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-instagram-square {
+        font-size: 1.2em;
     }
 
 }
